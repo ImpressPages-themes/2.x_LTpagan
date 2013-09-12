@@ -14,5 +14,6 @@
 <div class="main grid_12">
     <?php echo $this->generateBlock('main'); ?>
 </div>
+<div class="clear"><!-- --></div>
 
 <?php echo $this->subview('_footer.php'); ?>
