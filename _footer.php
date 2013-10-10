@@ -6,7 +6,7 @@
  */
 ?>
 <footer class="clearfix">
-    <div class="grid_12 clearfix">
+    <div class="col_12 clearfix">
         <?php echo $this->generateManagedString('themeName', 'p', 'Theme "LT pagan"', 'left'); ?>
         <?php echo $this->generateManagedText('slogan', 'div', 'Drag &amp; drop with <a href="http://www.impresspages.org">ImpressPages CMS</a>', 'right'); ?>
     </div>

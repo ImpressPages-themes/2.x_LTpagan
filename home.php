@@ -11,7 +11,7 @@
     <?php echo $this->subview('_homeBlock'.$this->getThemeOption('homeContentBlocks', 0).'.php')->render() ?>
     <div class="clear"></div>
 </div>
-<div class="main grid_12">
+<div class="main col_12">
     <?php echo $this->generateBlock('main'); ?>
 </div>
 <div class="clear"><!-- --></div>
