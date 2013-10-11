@@ -2223,7 +2223,7 @@ dt {
   padding: 0;
 }
 body {
-  background-color: #aeaeae;
+  background-color: #e5e5e5;
   color: #333;
   font-family: Verdana, Geneva, sans-serif;
   font-size: 14px;
@@ -2260,14 +2260,21 @@ address {
   max-width: 960px;
   margin: auto;
 }
+@media screen and (min-width: 480px) {
+  .wrapper {
+    padding: 0 20px;
+  }
+}
 .wrapper {
   background-color: #fff;
-  border-color: #07360d;
+  border-color: #000000;
   border-style: solid;
   border-width: 12px 0;
-  padding: 0 20px;
 }
 .wrapper > header {
+  margin-bottom: 50px;
+}
+.main {
   margin-bottom: 50px;
 }
 .wrapper > footer {
@@ -2331,7 +2338,7 @@ address {
   text-decoration: underline;
 }
 .wrapper > footer a {
-  color: #17b42b;
+  color: #019bd4;
 }
 .wrapper > footer a:hover {
   text-decoration: underline;
@@ -2343,7 +2350,7 @@ address {
   background-color: #c5c5c5;
 }
 .topmenu {
-  background-color: #07360d;
+  background-color: #000000;
   font-size: 13px;
   padding: 1px 0 0 15px;
 }
@@ -2361,7 +2368,7 @@ address {
   position: relative;
 }
 .topmenu .level1 > li > a {
-  color: #bbf6c3;
+  color: #d9d9d9;
   display: inline-block;
   font-weight: bold;
   line-height: 34px;
@@ -2369,7 +2376,7 @@ address {
 }
 .topmenu .level1 > li:hover > a,
 .topmenu .level1 > li > a:hover {
-  background-color: #0d6318;
+  background-color: #1a1a1a;
   color: #fff;
 }
 .topmenu .level1 > .current > a,
@@ -2381,7 +2388,7 @@ address {
   display: block;
 }
 .topmenu .level1 ul {
-  background-color: #07360d;
+  background-color: #000000;
   display: none;
   font-size: 12px;
   margin: -1px 0 0 -1px;
@@ -2399,13 +2406,13 @@ address {
   position: relative;
 }
 .topmenu .level2 a {
-  color: #bbf6c3;
+  color: #d9d9d9;
   display: block;
   padding: 9px 22px;
   white-space: nowrap;
 }
 .topmenu .level2 a:hover {
-  background-color: #0d6318;
+  background-color: #1a1a1a;
   color: #fff;
 }
 .topmenu .level2 .subnodes > a:after {
@@ -2434,7 +2441,7 @@ address {
 }
 .side nav .current > a {
   color: #fff;
-  background-color: #094410;
+  background-color: #262626;
 }
 .side nav.collapse .level1 ul {
   display: none;
@@ -2481,7 +2488,7 @@ address {
 .ipModuleSearch {
   clear: right;
   float: right;
-  margin-top: 20px;
+  margin: 20px 0;
 }
 .ipModuleSearch .ipmField {
   float: left;
